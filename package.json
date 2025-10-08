@@ -1,5 +1,19 @@
 {
+  "name": "node-plantilla",
+  "version": "1.0.0",
+  "description": "Plantilla básica para proyectos Node.js con Express",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
